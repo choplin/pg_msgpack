@@ -1,0 +1,21 @@
+CREATE EXTENSION pg_msgpack;
+-- conversion
+SELECT '[null, true, false, 10, 5.500000, {"a":"b"}]'::msgpack;
+                   msgpack                    
+----------------------------------------------
+ [null, true, false, 10, 5.500000, {"a":"b"}]
+(1 row)
+
+-- operator
+SELECT '{"a":"b"}'::msgpack -> 'a';
+ ?column? 
+----------
+ "b"
+(1 row)
+
+SELECT '[1,2,3]'::msgpack -> 1;
+ ?column? 
+----------
+ 2
+(1 row)
+

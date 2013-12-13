@@ -1,0 +1,4 @@
+# msgpack extension
+comment = 'msgpack'
+default_version = '0.0.1'
+module_pathname = '$libdir/pg_msgpack'

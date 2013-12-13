@@ -1,0 +1,32 @@
+{
+	"name": "pg_msgpack",
+	"abstract": "",
+	"description": "",
+	"version": "0.0.1",
+	"maintainer": "",
+	"license": "postgresql",
+	"provides": {
+		"pg_msgpack": {
+			"abstract": "",
+			"version": "0.0.1",
+			"file": "",
+			"docfile": ""
+		}
+	},
+	"resources": {
+		"bugtracker": {
+			"web": ""
+		},
+		"repository": {
+			"url": "",
+			"web": "",
+			"type": ""
+		}
+	},
+	"meta-spec": {
+		"version": "1.0.0",
+		"url": "http://pgxn.org/meta/spec.txt"
+	},
+	"tags": [
+	]
+}
